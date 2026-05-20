@@ -1,6 +1,6 @@
 # 跑步动作分析系统
 
-本项目为本科毕业设计工程，核心目标是基于视频完成跑步动作分析、评分与报告生成。当前仓库同时保留了原始分析引擎与重构后的 Flask + Vue3 Web 平台。
+本项目核心目标是基于视频完成跑步动作分析、评分与报告生成。当前仓库同时保留了原始分析引擎与重构后的 Flask + Vue3 Web 平台。
 
 ## 一、项目结构定位
 
@@ -9,7 +9,7 @@
 1. 分析引擎层：`modules/`、`config/`、`web/streamlit_app.py`、`main.py`
 2. Web 平台层：`backend/`、`frontend/`、`start_dev.py`、`stop_dev.py`
 
-论文写作、系统说明和功能介绍时，应以代码实现为准，并优先参考：
+系统说明和功能介绍时，应以代码实现为准，并优先参考：
 
 1. `docs/engine/ARCHITECTURE.md`
 2. `docs/engine/MODULE_REFERENCE.md`
@@ -146,5 +146,5 @@ npm run dev
 ## 九、说明
 
 1. 代码是当前实现的唯一最终真值。
-2. `docs/engine/` 下文档用于论文与系统说明。
+2. `docs/engine/` 下文档用于系统说明。
 3. `docs/FRONTEND_PROMPT.md` 与 `docs/rebuild/` 下文档保留实现过程信息，但若与代码冲突，应以代码和 `docs/engine/` 为准。
