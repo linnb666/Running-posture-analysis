@@ -1,0 +1,4 @@
+管理员默认账号在代码里，后端启动时会自动创建默认管理员：
+账号：admin
+密码：admin123456
+邮箱：admin@running.local

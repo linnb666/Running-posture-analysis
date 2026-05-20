@@ -1,0 +1,34 @@
+# 核心依赖
+opencv-python==4.8.0.76
+mediapipe==0.10.9
+numpy==1.24.3
+pandas==2.0.3
+
+# 深度学习
+torch==2.0.1
+torchvision==0.15.2
+
+# 数据处理与分析
+scipy==1.11.1
+
+# 可视化
+matplotlib==3.7.2
+
+# Web框架
+flask==2.3.2
+flask-cors==4.0.0
+streamlit==1.25.0
+SQLAlchemy==2.0.36
+PyJWT==2.10.1
+Werkzeug==2.3.8
+
+# 数据库
+# SQLite是Python内置的，无需额外安装
+
+# 工具库
+requests==2.31.0
+python-dotenv==1.0.0
+
+# 可选：AI API客户端
+# openai==0.27.8
+# anthropic==0.3.0

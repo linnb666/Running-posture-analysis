@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Frontend
+node_modules/
+dist/
+
+# Local runtime files
+.dev_pids.json
+
+# Databases
+*.db
+*.db-shm
+*.db-wal
+
+# Logs
+*.log
+
+# Generated outputs
+output/
+data/webapp/uploads/
+data/checkpoints/*.pth
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
